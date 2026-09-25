@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rapido-inspired website UI redesign project">
+  <title>Rapido — UI Redesign</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a class="logo" href="#">rapido</a>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#safety">Safety</a>
+      <a href="#careers">Careers</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">India's #1</p>
+        <h1>Ride-hailing app</h1>
+        <p class="tagline">Quick, Affordable rides at your doorstep</p>
+
+        <div class="booking-card">
+          <h2>Our Services</h2>
+          <label>
+            <span>Enter Pickup Location</span>
+            <b>●</b>
+          </label>
+          <label>
+            <span>Enter Drop Location</span>
+            <b>●</b>
+          </label>
+          <button id="bookRide">Book Ride</button>
+        </div>
+      </div>
+
+      <div class="hero-message">
+        <h2>BE HAPPY, YOUR FIRST<br>RIDE IS FREE WHICH IS OURS</h2>
+        <img src="images/hero.jpg" alt="Ride-hailing visual">
+      </div>
+    </section>
+
+    <section class="ride-types" id="about">
+      <article class="ride-card">
+        <div>
+          <h2>Bike-Taxi</h2>
+          <p>Beat traffic, ride quicker</p>
+        </div>
+        <img src="images/bike.jpg" alt="Bike taxi">
+      </article>
+
+      <article class="ride-card">
+        <div>
+          <h2>Cab</h2>
+          <p>Comfort for every journey</p>
+        </div>
+        <img src="images/cab.jpg" alt="Cab">
+      </article>
+    </section>
+
+    <section class="offers" id="safety">
+      <div class="cat-mark" aria-hidden="true"></div>
+      <div class="offers-content">
+        <h2>What we offer</h2>
+        <div class="red-line"></div>
+        <div class="offer-grid">
+          <article>
+            <img src="images/offer-1.jpg" alt="Quick Pickup">
+            <h3>Quick Pickup</h3>
+            <p>Get a ride quickly and reach your destination with ease.</p>
+          </article>
+          <article>
+            <img src="images/offer-2.jpg" alt="Best fares">
+            <h3>Best fares</h3>
+            <p>Affordable rides designed for everyday travel.</p>
+          </article>
+          <article>
+            <img src="images/offer-3.jpg" alt="Never too far">
+            <h3>Never too far</h3>
+            <p>Reliable rides are available when you need them.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="captain" id="careers">
+      <img src="images/captain.jpg" alt="Rapido captain">
+      <div>
+        <h2>Earn with Rapido</h2>
+        <div class="red-line"></div>
+        <p>Become a Rapido Captain. Ride when you want, work how you want, and earn on your own terms.</p>
+        <button id="startEarning">Start Earning →</button>
+      </div>
+    </section>
+
+    <section class="download" id="blog">
+      <h2>Download Now</h2>
+      <div class="download-line"></div>
+      <div class="download-cards">
+        <div class="app-card">
+          <span class="logo">rapido</span>
+          <span>Bike-Taxi,<br>Auto & Cabs</span>
+        </div>
+        <div class="app-card">
+          <span class="logo">rapido</span>
+          <span>Drive &<br>Earn</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="footer-brand">rapido</div>
+    <div>
+      <h3>Customer app</h3>
+      <p>Download for Android & iOS</p>
+      <small>© 2026 UI Redesign Project</small>
+    </div>
+    <div>
+      <h3>Company</h3>
+      <p>About Us<br>Careers<br>Blog<br>Contact</p>
+    </div>
+    <div>
+      <h3>Follow Us</h3>
+      <p>f &nbsp; in &nbsp; ◎</p>
+    </div>
+  </footer>
+
+  <div class="toast" id="toast">Demo button — connect this to your backend later.</div>
+  <script src="script.js"></script>
+</body>
+</html>
